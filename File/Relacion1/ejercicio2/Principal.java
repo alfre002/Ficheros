@@ -13,7 +13,7 @@ public class Principal {
 		Scanner s = new Scanner(System.in);
 		
 		// renombrar fichero
-		File f = new File("/home/amarrui2808/Escritorio/ficheros/perfe.txt");
+		File f = new File("/home/amarrui2808/Escritorio/ficheros/datos.txt");
 		System.out.println("Introduzca el nombre del nuevo fichero");
 		String nuevoNombre = s.nextLine();
 		File f2 = new File("/home/amarrui2808/Escritorio/ficheros/" + nuevoNombre + ".txt");
